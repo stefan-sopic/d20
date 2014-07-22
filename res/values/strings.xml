@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">D20 assistent</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+    <string name="hello_world">Dungeons and Dragons dice roller</string>
+    <string name="num_value">0</string>
+    <string name="title_section1">Dice roller</string>
+    <string name="title_section2">Races</string>
+    <string name="title_section3">Players</string>
+    <string-array name="races_array">
+        <item>Human</item>
+        <item>Elf</item>
+        <item>Halflig</item>
+        <item>Dwarf</item>
+        <item>Gnome</item>
+        <item>Half-Orc</item>
+    </string-array>
+    <string name="race_human">
+        &#8226; Humanoid (Human)\n
+		&#8226; Medium: As a Medium creature, a human has no special bonuses or penalties due to his size.\n
+		&#8226; Human base land speed is 30 feet.\n
+		&#8226; 1 extra feat at 1st level.\n
+		&#8226; 4 extra skill points at 1st level and 1 extra skill point at each additional level.\n
+		&#8226; Automatic Language: Common.\n
+		&#8226; Bonus Languages: Any (other than secret languages, such as Druidic). See the Speak Language skill.\n
+		&#8226; Favored Class: Any. When determining whether a multiclass human takes an experience point penalty, his or her highest-level class does not count.\n
+		&#8226; Level Adjustment: +0\n
+		&#8226; Effective Character Level: 1\n
+    </string>
+    <string name="race_elf">
+        &#8226; +2 Dexterity, –2 Constitution.\n
+		&#8226; Humanoid (Elf)\n
+		&#8226; Medium: As a Medium creature, a high elf has no special bonuses or penalties due to her size.\n
+		&#8226; High elf base land speed is 30 feet.\n
+		&#8226; Immunity to magic sleep effects, and a +2 racial saving throw bonus against enchantment spells or effects.\n
+		&#8226; Low-Light Vision: A high elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.\n
+		&#8226; Weapon Proficiency: High elves receive the Martial Weapon Proficiency feats for the longsword, rapier, longbow (including composite longbow), and shortbow (including composite shortbow) as bonus feats.\n
+		&#8226; +2 racial bonus on Listen, Search, and Spot checks. A high elf who merely passes within 5 feet of a secret or concealed door is entitled to a Search check to notice it as if she were actively looking for it.\n
+		&#8226; Automatic Languages: Common and Elven.\n
+		&#8226; Bonus Languages: Draconic, Gnoll, Gnome, Goblin, Orc, and Sylvan.\n
+		&#8226; Favored Class: Wizard. A multiclass high elf’s wizard class does not count when determining whether she takes an experience point penalty for multiclassing.\n
+		&#8226; Level Adjustment: +0\n
+		&#8226; Effective Character Level: 1\n
+    </string>
+	<string name="race_halflig">
+	    &#8226; –2 Strength, +2 Dexterity.\n
+		&#8226; Humanoid (Halfling)\n
+		&#8226; Small: As a Small creature, a lightfoot halfling gains a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, a –4 size penalty on special attack (bull rushes, grapples, overruns, and trips) checks, and a +4 size bonus on Hide checks, but she uses smaller weapons than humans use, and her lifting and carrying limits are three-quarters of those of a Medium character.\n
+		&#8226; Lightfoot halfling base land speed is 20 feet.\n
+		&#8226; +2 racial bonus on Climb, Jump, and Move Silently checks.\n
+		&#8226; +1 racial bonus on all saving throws.\n
+		&#8226; +2 morale bonus on saving throws against fear: This bonus stacks with the lightfoot halfling’s +1 bonus on saving throws in general.\n
+		&#8226; +1 racial bonus on attack rolls with thrown weapons and slings.\n
+		&#8226; +2 racial bonus on Listen checks.\n
+		&#8226; Automatic Languages: Common and Halfling.\n
+		&#8226; Bonus Languages: Dwarven, Elven, Gnome, Goblin, and Orc.\n
+		&#8226; Favored Class: Rogue. A multiclass lightfoot halfling’s rogue class does not count when determining whether she takes an experience point penalty for multiclassing.\n
+		&#8226; Level Adjustment: +0\n
+		&#8226; Effective Character Level: 1\n
+    </string>
+    <string name="race_halforc">
+        &#8226; +2 Strength, –2 Intelligence, –2 Charisma: A half-orc’s starting Intelligence score is always at least 3. If this adjustment would lower the character’s score to 1 or 2, his score is nevertheless 3.\n
+		&#8226; Humanoid (Orc)\n
+		&#8226; Medium: As a Medium creature, a half-orc has no special bonuses or penalties due to his size.\n
+		&#8226; Half-orc base land speed is 30 feet.\n
+		&#8226; Darkvision: A half-orc can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and a half-orc can function just fine with no light at all.\n
+		&#8226; Orc Blood: For all effects related to race, a half-orc is considered an orc.\n
+		&#8226; Automatic Languages: Common and Orc.\n
+		&#8226; Bonus Languages: Draconic, Giant, Gnoll, Goblin, and Abyssal.\n
+		&#8226; Favored Class: Barbarian. A multiclass half-orc’s barbarian class does not count when determining whether he takes an experience point penalty.\n
+		&#8226; Level Adjustment: +0\n
+		&#8226; Effective Character Level: 1\n
+    </string>
+	<string name="race_dwarf">
+	    &#8226; +2 Constitution, –2 Charisma.\n
+		&#8226; Humanoid (Dwarf)\n
+		&#8226; Medium: As a Medium creature, a hill dwarf has no special bonuses or penalties due to his size.\n
+		&#8226; Hill dwarf base land speed is 20 feet. However, hill dwarves can move at this speed even when wearing medium or heavy armor or when carrying a medium or heavy load (unlike other creatures, whose speed is reduced in such situations).\n
+		&#8226; Darkvision: A hill dwarf can see in the dark up to 60 feet. Darkvision is black and white only, but it is otherwise like normal sight, and a hill dwarf can function just fine with no light at all.\n
+		&#8226; Stonecunning: This ability grants a hill dwarf a +2 racial bonus on Search checks to notice unusual stonework, such as sliding walls, stonework traps, new construction (even when built to match the old), unsafe stone surfaces, shaky stone ceilings, and the like. Something that isn’t stone but that is disguised as stone also counts as unusual stonework. A hill dwarf who merely comes within 10 feet of unusual stonework can make a Search check as if he were actively searching, and a hill dwarf can use the Search skill to find stonework traps as a rogue can. A hill dwarf can also intuit depth, sensing his approximate depth underground as naturally as a human can sense which way is up.\n
+		&#8226; Weapon Familiarity: Hill dwarves may treat dwarven waraxes and dwarven urgroshes as martial weapons, rather than exotic weapons.\n
+		&#8226; Stability: A hill dwarf gains a +4 bonus on ability checks made to resist being bull rushed or tripped when standing on the ground (but not when climbing, flying, riding, or otherwise not standing firmly on the ground).\n
+		&#8226; +2 racial bonus on saving throws against poison.\n
+		&#8226; +2 racial bonus on saving throws against spells and spell-like effects.\n
+		&#8226; +1 racial bonus on attack rolls against orcs and goblinoids.\n
+		&#8226; +4 dodge bonus to Armor Class against monsters of the giant type. Any time a creature loses its Dexterity bonus (if any) to Armor Class, such as when it’s caught flat-footed, it loses its dodge bonus, too.\n
+		&#8226; +2 racial bonus on Appraise checks that are related to stone or metal items.\n
+		&#8226; +2 racial bonus on Craft checks that are related to stone or metal.\n
+		&#8226; Automatic Languages: Common and Dwarven.\n
+		&#8226; Bonus Languages: Giant, Gnome, Goblin, Orc, Terran, and Undercommon.\n
+		&#8226; Favored Class: Fighter. A multiclass hill dwarf’s Fighter class does not count when determining whether he takes an experience point penalty for multiclassing.\n
+		&#8226; Level Adjustment: +0\n
+		&#8226; Effective Character Level: 1\n
+    </string>
+    <string name="race_gnome">
+        &#8226; –2 Strength, +2 Constitution.\n
+		&#8226; Humanoid (Gnome)\n
+		&#8226; Small: As a Small creature, a rock gnome gains a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, a –4 size penalty on special attack (bull rushes, grapples, overruns, and trips) checks, and a +4 size bonus on Hide checks, but he uses smaller weapons than humans use, and his lifting and carrying limits are three-quarters of those of a Medium character.\n
+		&#8226; Rock gnome base land speed is 20 feet.\n
+		&#8226; Low-Light Vision: A rock gnome can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. He retains the ability to distinguish color and detail under these conditions.\n
+		&#8226; Weapon Familiarity: Rock gnomes may treat gnome hooked hammers as martial weapons rather than exotic weapons.\n
+		&#8226; +2 racial bonus on saving throws against illusions.\n
+		&#8226; Add +1 to the Difficulty Class for all saving throws against illusion spells cast by rock gnomes. This adjustment stacks with those from similar effects.\n
+		&#8226; +1 racial bonus on attack rolls against kobolds and goblinoids.\n
+		&#8226; +4 dodge bonus to Armor Class against monsters of the giant type. Any time a creature loses its Dexterity bonus (if any) to Armor Class, such as when it’s caught flat-footed, it loses its dodge bonus, too.\n
+		&#8226; +2 racial bonus on Listen checks.\n
+		&#8226; +2 racial bonus on Craft (alchemy) checks.\n
+		&#8226; Automatic Languages: Common and Gnome.\n
+		&#8226; Bonus Languages: Draconic, Dwarven, Elven, Giant, Goblin, and Orc. In addition, a rock gnome can speak with a burrowing mammal (a badger, fox, rabbit, or the like, see below). This ability is innate to rock gnomes. See the speak with animals spell description.\n
+		&#8226; Spell-Like Abilities: 1/day—speak with animals (burrowing mammal only, duration 1 minute). A rock gnome with a Charisma score of at least 10 also has the following spell-like abilities: 1/day—dancing lights, ghost sound, prestidigitation. Caster level 1st; save DC 10 + rock gnome’s Cha modifier + spell level.\n
+		&#8226; Favored Class: Bard. A multiclass rock gnome’s bard class does not count when determining whether he takes an experience point penalty.\n
+		&#8226; Level Adjustment: +0\n
+		&#8226; Effective Character Level: 1\n
+    </string>
+    <string name="about_text">
+        Dungeons and Dragons is an imaginative, social experience that engages players in a rich fantasy world filled with larger-than-life heroes, deadly monsters, and diverse settings. As a hobby game, DnD is an ongoing activity to which players might devote hours of their time—much like a weekly poker game—getting together with friends on a regular basis for weeks, months, or even years.
+        This app is to help you about some of the more basic d20 stuff. Hope you like it.
+        
+        This app was developed by Stefan Sopic for CS330 class Metropolitan University, Belgrade
+    </string>     
+
+</resources>

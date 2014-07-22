@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$DiceRollerFragment" >
+<!-- 
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+ -->
+ 
+   <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/text_d12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_d12"
+        android:layout_alignBottom="@+id/button_d12"
+        android:layout_alignLeft="@+id/text_d20"
+        android:text="@string/num_value"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/text_d10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_d10"
+        android:layout_alignBottom="@+id/button_d10"
+        android:layout_alignLeft="@+id/text_d12"
+        android:text="@string/num_value"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/text_d08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_d08"
+        android:layout_alignBottom="@+id/button_d08"
+        android:layout_alignLeft="@+id/text_d10"
+        android:text="@string/num_value"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/text_d20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button_d20"
+        android:layout_alignBottom="@+id/button_d20"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="65dp"
+        android:text="@string/num_value"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button_d12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/description"
+        android:layout_below="@+id/description"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="132dp"
+        android:onClick="rollDice"
+        android:text="d12" />
+
+    <Button
+        android:id="@+id/button_d20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_d12"
+        android:layout_alignLeft="@+id/button_d12"
+        android:layout_marginBottom="38dp"
+        android:onClick="rollDice"
+        android:text="d20" />
+
+    <Button
+        android:id="@+id/button_d10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_d12"
+        android:layout_below="@+id/button_d12"
+        android:layout_marginTop="33dp"
+        android:onClick="rollDice"
+        android:text="d10" />
+
+    <Button
+        android:id="@+id/button_d08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_d10"
+        android:layout_below="@+id/button_d10"
+        android:layout_marginTop="30dp"
+        android:onClick="rollDice"
+        android:text="d8" />
+</RelativeLayout>
